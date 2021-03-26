@@ -1,0 +1,67 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(90, 176, 85);
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+.login-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box {
+    width: 30rem;
+    height: 20rem;
+    background-color: honeydew;
+    box-shadow: black 0px 3px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    padding: 2.5rem;
+}
+.my-input {
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(231, 225, 225);
+    margin-bottom: 1rem;
+    color: rgb(168, 157, 157);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    padding: 10px;
+}
+.my-button {
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(1, 178, 74);
+    margin-bottom: 1rem;
+    color: white;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+.link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text-page {
+    color: rgb(168, 157, 157);
+    margin-right: 5px;
+}
+.link-page {
+    color: rgb(50, 155, 120);
+    cursor: pointer;
+}
